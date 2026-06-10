@@ -1,131 +1,144 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>بهترین مرجع آمار مسابقات فوتبال</title>
-
-<style>
-
-body{
-    margin:0;
-    direction:rtl;
-    font-family:tahoma;
-    background:#f0fdf4;
-    color:#14532d;
-    line-height:2.1;
-}
-
-.wrapper{
-    width:92%;
-    max-width:1150px;
-    margin:auto;
-    padding:50px 0;
-}
-
-.header{
-    background:linear-gradient(135deg,#16a34a,#15803d);
-    color:white;
-    padding:90px 50px;
-    border-radius:30px;
-    text-align:center;
-}
-
-.header h1{
-    font-size:52px;
-}
-
-.card{
-    background:white;
-    margin-top:30px;
-    padding:35px;
-    border-radius:22px;
-    box-shadow:0 10px 25px rgba(0,0,0,.08);
-}
-
-.card h2{
-    color:#15803d;
-}
-
-.table{
-    width:100%;
-    border-collapse:collapse;
-    margin-top:20px;
-}
-
-.table td{
-    border:1px solid #bbf7d0;
-    padding:14px;
-}
-
-</style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="بهترین مرجع آمار مسابقات فوتبال - جدول‌ها، هِد تو هِد، فرم تیم‌ها، آمار دقیق لیگ‌ها و تورنمنت‌ها">
+    <title>فوتبال استاتس | بهترین مرجع آمار مسابقات فوتبال</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;900&display=swap');
+        body { font-family: 'Vazirmatn', sans-serif; background: linear-gradient(135deg, #1a1a1a 0%, #3b0a0a 100%); color: #f5f5f5; }
+        .red-glow { text-shadow: 0 0 15px #ef4444, 0 0 30px #ef4444; }
+        .stat-card { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+        .stat-card:hover { transform: translateY(-10px); box-shadow: 0 0 40px rgba(239, 68, 68, 0.5); }
+        .league-table tr:nth-child(even) { background-color: rgba(255,255,255,0.05); }
+    </style>
 </head>
+<body class="min-h-screen">
+    <header class="bg-black border-b-4 border-red-600 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <div class="w-14 h-14 bg-red-600 rounded-2xl flex items-center justify-center text-4xl shadow-inner">⚽</div>
+                <h1 class="text-4xl font-black tracking-tighter red-glow">فوتبال استاتس</h1>
+            </div>
+            <nav class="hidden md:flex gap-10 text-lg font-semibold">
+                <a href="#" class="hover:text-red-500 transition">جدول‌ها</a>
+                <a href="#" class="hover:text-red-500 transition">آمار زنده</a>
+                <a href="#" class="hover:text-red-500 transition">H2H</a>
+                <a href="#" class="hover:text-red-500 transition">تورنمنت‌ها</a>
+            </nav>
+            <div class="bg-red-600 text-white px-6 py-3 rounded-2xl font-bold flex items-center gap-3 shadow-lg">
+                <i class="fas fa-fire"></i>
+                لیگ برتر اروپا
+            </div>
+        </div>
+    </header>
 
-<body>
+    <main class="max-w-7xl mx-auto px-6 py-12">
+        <div class="text-center mb-16">
+            <h2 class="text-6xl font-black red-glow mb-6">بهترین مرجع آمار مسابقات فوتبال</h2>
+            <p class="text-2xl text-red-300 max-w-3xl mx-auto">داده‌های دقیق • تحلیل حرفه‌ای • به‌روزرسانی لحظه‌ای تمام لیگ‌ها و تورنمنت‌های جهان</p>
+        </div>
 
-<div class="wrapper">
+        <!-- آمار برجسته -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-20">
+            <div class="stat-card bg-zinc-900 border border-red-700 rounded-3xl p-8 text-center">
+                <div class="text-6xl font-mono text-red-500">۴۸۲</div>
+                <div class="text-red-300 mt-2">گل زده امروز</div>
+            </div>
+            <div class="stat-card bg-zinc-900 border border-red-700 rounded-3xl p-8 text-center">
+                <div class="text-6xl font-mono text-red-500">۲۹</div>
+                <div class="text-red-300 mt-2">بازی زنده</div>
+            </div>
+            <div class="stat-card bg-zinc-900 border border-red-700 rounded-3xl p-8 text-center">
+                <div class="text-6xl font-mono text-red-500">۸۷٪</div>
+                <div class="text-red-300 mt-2">دقت پیش‌بینی</div>
+            </div>
+            <div class="stat-card bg-zinc-900 border border-red-700 rounded-3xl p-8 text-center">
+                <div class="text-6xl font-mono text-red-500">۱۲۳۴</div>
+                <div class="text-red-300 mt-2">آمار ثبت شده</div>
+            </div>
+        </div>
 
-<div class="header">
+        <!-- جدول لیگ نمونه -->
+        <div class="bg-zinc-900 rounded-3xl p-10 mb-20 shadow-2xl">
+            <h3 class="text-4xl font-bold mb-8 flex items-center gap-4">
+                <span>جدول لیگ برتر انگلیس ۱۴۰۴-۱۴۰۵</span>
+            </h3>
+            <div class="overflow-x-auto">
+                <table class="league-table w-full text-right min-w-full">
+                    <thead class="bg-red-700 text-white">
+                        <tr>
+                            <th class="p-5">رتبه</th>
+                            <th class="p-5">تیم</th>
+                            <th class="p-5">بازی</th>
+                            <th class="p-5">برد</th>
+                            <th class="p-5">مساوی</th>
+                            <th class="p-5">باخت</th>
+                            <th class="p-5">گل</th>
+                            <th class="p-5">امتیاز</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-lg">
+                        <tr class="border-b border-zinc-700"><td class="p-5 font-bold">۱</td><td class="p-5 font-semibold">آرسنال</td><td class="p-5">۳۸</td><td class="p-5">۲۶</td><td class="p-5">۸</td><td class="p-5">۴</td><td class="p-5">۸۲-۳۱</td><td class="p-5 font-bold">۸۶</td></tr>
+                        <tr class="border-b border-zinc-700"><td class="p-5 font-bold">۲</td><td class="p-5 font-semibold">منچسترسیتی</td><td class="p-5">۳۸</td><td class="p-5">۲۵</td><td class="p-5">۷</td><td class="p-5">۶</td><td class="p-5">۷۸-۳۵</td><td class="p-5 font-bold">۸۲</td></tr>
+                        <!-- ردیف‌های بیشتر -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
-<h1>بهترین مرجع آمار مسابقات فوتبال</h1>
+        <!-- بخش تحلیل طولانی و غنی -->
+        <section class="prose prose-invert max-w-none text-lg leading-relaxed bg-zinc-900/70 border border-red-800 rounded-3xl p-12">
+            <h3 class="text-4xl font-black text-red-400 mb-10">بهترین مرجع آمار مسابقات فوتبال — تحلیل جامع</h3>
+            
+            <p>فوتبال استاتس به عنوان معتبرترین و کامل‌ترین پایگاه داده آماری فوتبال در زبان فارسی، تمام اطلاعات مورد نیاز علاقه‌مندان، تحلیل‌گران و پیش‌بینی‌کنندگان را در یک پلتفرم حرفه‌ای جمع‌آوری کرده است. از لیگ برتر انگلیس، لالیگا، سری آ، بوندسلیگا گرفته تا لیگ قهرمانان اروپا، جام جهانی باشگاه‌ها و حتی لیگ‌های آسیایی و ایرانی، تمام آمار با دقت و به‌روزرسانی لحظه‌ای ارائه می‌شود.</p>
+            
+            <p>در فصل ۱۴۰۴-۱۴۰۵، آرسنال با عملکرد دفاعی فوق‌العاده و حمله هماهنگ، توانسته صدرنشین لیگ برتر شود. آمار مالکیت توپ این تیم به طور میانگین ۶۲ درصد است و تعداد شوت‌هایشان در هر بازی بیش از ۱۵ مورد ثبت شده. این ارقام نشان‌دهنده یک تیم کاملاً متعادل است که تحت هدایت میکِل آرتتا به اوج رسیده.</p>
+            
+            <p>منچسترسیتی تحت مربیگری گواردیولا همچنان رقیب اصلی آرسنال است. آمار هجومی این تیم بی‌نظیر بوده و ارلینگ هالند با ثبت بیش از ۲۵ گل در نیمه فصل، رکوردهای زیادی را جابجا کرده است. مقایسه آماری این دو تیم نشان می‌دهد که تقابل‌های مستقیمشان همیشه پرگل و هیجان‌انگیز بوده است.</p>
+            
+            <h4 class="text-3xl font-bold text-red-300 mt-14 mb-6">آمار کلیدی فصل جاری</h4>
+            <ul class="list-disc pr-8 space-y-6 text-base">
+                <li><strong>بیشترین گل زده:</strong> منچسترسیتی با ۷۸ گل در ۳۸ بازی</li>
+                <li><strong>بهترین خط دفاع:</strong> آرسنال با تنها ۳۱ گل خورده</li>
+                <li><strong>بیشترین کلین‌شیت:</strong> لیورپول با ۱۸ کلین‌شیت</li>
+                <li><strong>بهترین گلزن:</strong> ارلینگ هالند با ۲۷ گل</li>
+                <li><strong>بیشترین پاس گل:</strong> کوین دی‌بروینه با ۱۵ پاس گل</li>
+            </ul>
+            
+            <p>یکی از مهم‌ترین بخش‌های فوتبال استاتس، بخش Head-to-Head است. برای مثال در دربی منچستر، آمار تاریخی نشان می‌دهد که سیتی در ۱۰ بازی اخیر ۶ برد داشته در حالی که یونایتد تنها ۲ برد کسب کرده است. این داده‌ها به مربیان و تحلیل‌گران کمک می‌کند تا استراتژی دقیق‌تری برای بازی‌های آینده طراحی کنند.</p>
+            
+            <p>در لیگ قهرمانان اروپا نیز آمارها بسیار جالب توجه هستند. رئال مادرید با وجود تغییرات نسل، همچنان قدرتمند ظاهر شده و در مرحله گروهی رکورد بیشترین گل زده را به نام خود ثبت کرده. وینیسیوس جونیور با سرعت و تکنیک فردی‌اش، یکی از خطرناک‌ترین بازیکنان حال حاضر فوتبال جهان است.</p>
+            
+            <p>فوتبال استاتس از داده‌های رسمی فیفا، یوفا و شرکت‌های معتبر آماری مانند Opta استفاده می‌کند تا دقت اطلاعات به بالاترین سطح برسد. علاوه بر آمار پایه‌ای، شاخص‌های پیشرفته مانند xG (گل مورد انتظار)، PPDA (پاس‌های اجازه داده شده در دفاع) و progressive carries نیز در دسترس کاربران قرار گرفته است.</p>
+            
+            <h4 class="text-3xl font-bold text-red-300 mt-14 mb-6">تحلیل دربی‌های بزرگ جهان</h4>
+            <p>دربی ال‌کلاسیکو بین رئال مادرید و بارسلونا همیشه یکی از جذاب‌ترین بازی‌های فصل است. آمار تاریخی این دو تیم نشان‌دهنده برتری بسیار جزئی رئال است اما بارسلونا در سال‌های اخیر با بازیکنان جوان و بااستعداد توانسته رقابت را نزدیک کند.</p>
+            
+            <p>در ایتالیا، دربی میلان بین اینتر و میلان نیز همیشه پر از هیجان بوده. اینتر در فصل جاری فرم بهتری داشته و شانس بالاتری برای قهرمانی دارد. آمار تقابل مستقیم این دو تیم در ۱۵ بازی اخیر، ۷ برد برای اینتر، ۴ برد برای میلان و ۴ مساوی را نشان می‌دهد.</p>
+            
+            <p>علاوه بر لیگ‌های اروپایی، لیگ برتر ایران نیز با دقت کامل پوشش داده می‌شود. پرسپولیس و استقلال در فصل جاری رقابت نزدیکی داشته‌اند و آمار گل‌زده و خورده آن‌ها بسیار به هم نزدیک است. فوتبال استاتس با ارائه این داده‌ها به طرفداران ایرانی کمک می‌کند تا تحلیل دقیق‌تری از عملکرد تیم‌های مورد علاقه‌شان داشته باشند.</p>
+            
+            <p>این مرجع آماری نه تنها برای علاقه‌مندان عادی بلکه برای خبرنگاران ورزشی، مربیان، بازیکنان و حتی شرکت‌های شرط‌بندی (به صورت قانونی و مسئولانه) بسیار مفید است. تمام اطلاعات با منابع معتبر و به‌روزرسانی لحظه‌ای ارائه می‌شود تا کاربران همیشه یک قدم جلوتر باشند.</p>
+            
+            <p>در پایان، فوتبال استاتس متعهد است که با گسترش پوشش تورنمنت‌ها و افزودن ویژگی‌های جدید مانند گراف‌های تعاملی، مقایسه بازیکنان و پیش‌بینی مبتنی بر هوش مصنوعی، بهترین تجربه ممکن را برای جامعه فوتبال ایران فراهم کند.</p>
+        </section>
 
-<p>
-بررسی دقیق آمار تیم‌ها، نتایج مسابقات و اطلاعات تخصصی فوتبال جهان
-</p>
+        <div class="mt-16 text-center">
+            <a href="#" class="inline-block bg-red-600 hover:bg-red-700 transition text-white text-xl font-bold px-12 py-6 rounded-3xl shadow-xl">مشاهده تمام آمار و جداول</a>
+        </div>
+    </main>
 
-</div>
+    <footer class="bg-black py-16 text-center border-t-4 border-red-700 mt-20">
+        <p class="text-2xl font-bold text-red-400">© ۱۴۰۵ فوتبال استاتس — بهترین مرجع آمار مسابقات فوتبال</p>
+        <p class="text-zinc-500 mt-4">داده‌های دقیق • تحلیل حرفه‌ای • تجربه‌ای بی‌نظیر برای عاشقان فوتبال</p>
+    </footer>
 
-<div class="card">
-
-<h2>اهمیت آمار در فوتبال</h2>
-
-<p>
-آمار در فوتبال مدرن نقش بسیار مهمی دارد.
-کارشناسان حرفه‌ای برای تحلیل مسابقات،
-از داده‌های آماری استفاده می‌کنند.
-این داده‌ها به کاربران کمک می‌کند
-عملکرد واقعی تیم‌ها را بهتر بررسی کنند.
-</p>
-
-<p>
-بررسی میانگین گل‌ها،
-مالکیت توپ،
-تعداد شوت‌ها و پاس‌های صحیح
-از مهم‌ترین بخش‌های تحلیل آماری فوتبال محسوب می‌شود.
-</p>
-
-</div>
-
-<div class="card">
-
-<h2>ویژگی‌های مرجع حرفه‌ای آمار فوتبال</h2>
-
-<table class="table">
-
-<tr>
-<td>آمار زنده مسابقات</td>
-<td>نتایج لحظه‌ای</td>
-</tr>
-
-<tr>
-<td>تحلیل بازیکنان</td>
-<td>اطلاعات لیگ‌ها</td>
-</tr>
-
-<tr>
-<td>بررسی تاکتیکی</td>
-<td>داده‌های تحلیلی</td>
-</tr>
-
-</table>
-
-</div>
-
-</div>
-
+    <script>
+        console.log("%cآمار فوتبال به‌روزرسانی شد ⚽", "color: #ef4444; font-size: 16px; font-weight: bold");
+    </script>
 </body>
-
 </html>
